@@ -6,6 +6,13 @@
 
 /* font-family: 'Poppins', sans-serif; */
 
+:root {
+  --main-gray: #d8e3e7;
+  --main-cyan-light: #51c4d3;
+  --main-cyan-med: #126e82;
+  --main-cyan-dark: #132c33;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
