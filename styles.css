@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* font-family: 'Poppins', sans-serif; */
@@ -15,4 +17,34 @@
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: var(--main-cyan-dark);
+  position: fixed;
+  width: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.nav-item {
+  padding: 0.4em 1em 0.4em 1em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--main-gray);
+}
+
+.nav-link:hover {
+  color: var(--main-cyan-light);
 }
