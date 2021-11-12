@@ -17,6 +17,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+header {
+  margin-top: 170px;
 }
 
 .flex-container {
@@ -24,9 +29,14 @@ body {
   flex-direction: column;
 }
 
+.grid-container {
+  display: grid;
+}
+
 .navbar {
-  background-color: var(--main-cyan-dark);
+  background-color: var(--main-gray);
   position: fixed;
+  top: 0;
   width: 100%;
 }
 
@@ -42,7 +52,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: var(--main-gray);
+  color: var(--main-cyan-dark);
 }
 
 .nav-link:hover {
