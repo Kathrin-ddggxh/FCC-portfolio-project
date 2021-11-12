@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  margin-top: 170px;
+  margin-top: 180px;
 }
 
 h2,
@@ -63,6 +63,7 @@ a {
 
 .nav-link {
   color: var(--main-gray);
+  font-size: 1.2rem;
 }
 
 .nav-link:hover {
@@ -90,4 +91,19 @@ a {
 
 .project-title:hover {
   color: #51c4d3;
+}
+
+.contact-link {
+  color: var(--main-cyan-dark);
+  text-shadow: 1px 1px var(--main-cyan-med);
+  padding: 0.5em 1em;
+  font-size: 1.2rem;
+}
+
+.contact-link:hover {
+  text-shadow: 1px 1px var(--main-cyan-light);
+}
+
+.contact-icon {
+  padding-right: 0.5em;
 }
