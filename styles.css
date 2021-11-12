@@ -23,7 +23,8 @@ body {
 }
 
 header {
-  margin-top: 180px;
+  padding-top: 210px;
+  background-image: linear-gradient(var(--main-cyan-med), var(--main-gray));
 }
 
 h2,
@@ -33,6 +34,11 @@ p {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  padding: 2rem 0;
+  background-image: linear-gradient(var(--main-gray), var(--main-cyan-light));
 }
 
 .flex-container {
@@ -70,6 +76,23 @@ a {
   color: var(--main-cyan-light);
 }
 
+.welcome-header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.welcome-text {
+  font-size: 1.5rem;
+}
+
+.projects-section {
+  margin-top: 2.2rem;
+}
+
+.projects-section-text {
+  padding: 0.8em 0 1em 0;
+}
+
 .project-tile {
   margin: 1.2rem 0.8rem;
   background-color: var(--main-cyan-dark);
@@ -93,6 +116,10 @@ a {
   color: #51c4d3;
 }
 
+.contact-text {
+  padding-bottom: 1em;
+}
+
 .contact-link {
   color: var(--main-cyan-dark);
   text-shadow: 1px 1px var(--main-cyan-med);
@@ -102,6 +129,8 @@ a {
 
 .contact-link:hover {
   text-shadow: 1px 1px var(--main-cyan-light);
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
 }
 
 .contact-icon {
