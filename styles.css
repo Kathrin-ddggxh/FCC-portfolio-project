@@ -62,7 +62,7 @@ footer {
 .nav-list {
   list-style: none;
   text-align: center;
-  padding: 1rem 0;
+  padding: 0.6rem 0;
 }
 
 .nav-item {
@@ -78,21 +78,26 @@ footer {
   color: var(--main-cyan-light);
 }
 
+.welcome-section {
+  height: 100vh;
+}
+
 .welcome-header {
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: 700;
 }
 
 .welcome-text {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  line-height: 2.5;
 }
 
-.projects-section {
-  margin-top: 2.2rem;
+.projects-header {
+  font-size: 2rem;
 }
 
 .projects-section-text {
-  padding: 0.8em 0 1em 0;
+  padding: 0.8em 0 2em 0;
 }
 
 .project-tile {
@@ -191,7 +196,10 @@ footer {
   }
 }
 
+/* The height of the welcome section should be equal to the height of the viewport. */
+
 /* 
 To do:
 - look at link:focus property
+- do icon for tab (and maybe nav or header)
 */
