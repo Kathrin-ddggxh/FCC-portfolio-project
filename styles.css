@@ -164,7 +164,7 @@ footer {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   :root {
     font-size: 22px;
   }
